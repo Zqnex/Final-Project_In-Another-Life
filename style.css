@@ -5,3 +5,49 @@ html, body {
 canvas {
   display: block;
 }
+
+
+
+.banner {
+  padding: 0px;
+  margin-top: 20px;
+  letter-spacing: 10px;
+  font-size: 100%;
+  text-align: CENTER;
+  margin: auto;
+  border: 3px solid #003459;
+  color: black;
+  background: #348AA7;
+}
+
+
+.userInterface {
+  border: 3px solid #003459;
+  display: grid;
+  grid-template-columns: 68% 30%;
+  gap: 0%;
+  justify-content: center;
+  padding: 5px;
+}
+
+#buttonHolder {
+  border: 3px solid #003459;
+  background: #348AA7;
+  
+}
+
+#sketchHolder {
+  background-color: #2e2d2c;
+ 
+}
+
+button{
+  display: block;
+  margin-top: 50px;
+  margin-left: 10px;
+  padding: 10px;
+  background-color: #9A7AA0;
+  font-size: 15px;
+  font-style: normal;
+  
+}
